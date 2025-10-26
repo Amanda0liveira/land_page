@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matheus Jesus de Oliveira | Advocacia Bancária</title>
+  <style>
+    /* ======= GERAL ======= */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #0E2A3B;
+      color: #f5f5f5;
+    }
+
+    /* ======= CABEÇALHO ======= */
+    header {
+      background: linear-gradient(90deg, #0B2432 0%, #15394C 50%, #1C3E52 100%);
+      color: #f5f5f5;
+      text-align: center;
+      padding: 65px 20px 70px;
+      position: relative;
+    }
+
+    /* Detalhe dourado no rodapé do cabeçalho */
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 80px;
+      height: 4px;
+      background-color: #C9A66B;
+      transform: translateX(-50%);
+      border-radius: 2px;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      letter-spacing: 1px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+      margin-bottom: 25px;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25d366;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 26px;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe5c;
+      transform: scale(1.05);
+    }
+
+    /* ======= SERVIÇOS ======= */
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 50px 20px 70px;
+      background-color: #0E2A3B;
+    }
+
+    .card {
+      background-color: #183544;
+      border: 1px solid #C9A66B;
+      border-radius: 15px;
+      width: 290px;
+      padding: 25px;
+      transition: 0.3s;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .card:hover {
+      background-color: #1f485b;
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #C9A66B;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #e6e6e6;
+      font-size: 0.96rem;
+      line-height: 1.5;
+    }
+
+    /* ======= SOBRE ======= */
+    .escritorio {
+      background-color: #f8f8f8;
+      color: #222;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .escritorio h2 {
+      color: #0E2A3B;
+      margin-bottom: 15px;
+      font-size: 2rem;
+    }
+
+    .escritorio p {
+      max-width: 750px;
+      margin: auto;
+      font-size: 1rem;
+      color: #333;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .escritorio .whatsapp-btn {
+      background-color: #25d366;
+      color: white;
+      border-radius: 30px;
+      padding: 12px 26px;
+      font-weight: bold;
+    }
+
+    /* ======= RODAPÉ ======= */
+    footer {
+      background-color: #0E2A3B;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Matheus Jesus de Oliveira</h1>
+    <p>Advogado Especialista em Direito Bancário e Desbloqueio de Contas</p>
+    <a href="https://wa.me/5599999999999" target="_blank" class="whatsapp-btn">Fale no WhatsApp</a>
+  </header>
+
+  <section class="cards">
+    <div class="card">
+      <h3>Desbloqueio de Contas</h3>
+      <p>Auxílio jurídico rápido e eficaz para liberação de contas bloqueadas judicialmente, garantindo o acesso ao seu patrimônio.</p>
+    </div>
+    <div class="card">
+      <h3>Defesa em Execuções</h3>
+      <p>Atuação completa em casos de cobranças, penhoras e execuções bancárias, com estratégias jurídicas personalizadas.</p>
+    </div>
+    <div class="card">
+      <h3>Negociações Bancárias</h3>
+      <p>Intermediação de acordos e revisão de contratos, buscando sempre as melhores condições para redução de dívidas.</p>
+    </div>
+  </section>
+
+  <section class="escritorio">
+    <h2>Sobre o Advogado</h2>
+    <p>Dr. Matheus Jesus de Oliveira é advogado especializado em Direito Bancário, com sólida experiência na defesa de clientes que enfrentam bloqueios judiciais, execuções e revisões contratuais. Seu trabalho é pautado na eficiência, ética e proximidade com o cliente — oferecendo atendimento humanizado, ágil e voltado para resultados concretos.</p>
+    <a href="https://wa.me/5599999999999" target="_blank" class="whatsapp-btn">Entrar em Contato</a>
+  </section>
+
+  <footer>
+    © 2025 - Matheus Jesus de Oliveira Advocacia | Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
